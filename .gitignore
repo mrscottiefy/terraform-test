@@ -1,0 +1,13 @@
+# Exclude state files
+*.tfstate
+*.tfstate.*
+
+# Exclude variable data
+*.tfvars
+
+# Local .terraform directories
+**/.terraform/*
+**/terraform.*/*
+
+.DS_Store
+*lock*
